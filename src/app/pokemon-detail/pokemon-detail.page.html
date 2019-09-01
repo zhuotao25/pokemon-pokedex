@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/pokemon-list"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{loadedPokemon.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="2" offset-md="5">
+        <ion-img [src]="loadedPokemon.imageUrl"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h1 text-center>{{loadedPokemon.name}}</h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <!-- <ion-item *ngFor="let type of loadedPokemon.types">
+            {{type}}
+          </ion-item> -->
+          <ion-item>
+              <ion-label>
+                  <h3>ID</h3>
+                  <p>{{loadedPokemon.id}}</p>
+                </ion-label>
+          </ion-item>
+          <ion-item>
+              <ion-label>
+                  <h3>Name</h3>
+                  <p>{{loadedPokemon.name}}</p>
+                </ion-label>
+          </ion-item>
+          <ion-item>
+              <ion-label>
+                  <h3>Types</h3>
+                  <p>{{loadedPokemon.types}}</p>
+                </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
