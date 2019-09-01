@@ -10,7 +10,8 @@
       <ion-avatar slot="start">
         <ion-img [src]="pokemon.imageUrl"></ion-img>
       </ion-avatar>
-      <ion-label>{{pokemon.name}}</ion-label>
+      <ion-label>{{pokemon.id}} {{pokemon.name}}</ion-label>
+      <ion-label text-right>{{pokemon.types}}</ion-label>
     </ion-item>
   </ion-list>
 </ion-content>
