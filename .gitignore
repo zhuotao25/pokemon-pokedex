@@ -33,3 +33,78 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+
+    
+.idea
+**/node_modules/*
+**/.firebaserc
+*/npm-debug.log
+lerna-debug.log
+*~
+service-account-credentials.json
+**/package-lock.json
+
+/.vscode
+node_modules
+/coverage
+/.nyc_output
+firebase-debug.log
+npm-debug.log
+yarn.lock
+.npmrc
+
+.DS_Store
+.idea
+*.iml
+*.tgz
+scripts/*.json
+
+lib/
+
+**/secrets.json
+**/firebase-debug.log
+**/node_modules
+**/bower_components
+**/*.bak
+.idea
+.firebaserc
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### Angular ###
+## Angular ##
+# compiled output
+/dist
+/tmp
+/app/**/*.js
+/app/**/*.js.map
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
