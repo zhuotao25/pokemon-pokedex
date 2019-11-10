@@ -1,5 +1,7 @@
 {
   "name": "pokemon-db",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
